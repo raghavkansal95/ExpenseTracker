@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close">أغلق</string>
+    <string name="open">افتح</string>
+    <string name="sign_in">تسجيل الدخول</string>
+</resources>

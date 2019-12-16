@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textsize">18sp</dimen>
+    <dimen name="headingTextSize">28sp</dimen>
+    <dimen name="normalTextSize">23sp</dimen>
+    <dimen name="margintopbig">40dp</dimen>
+    <dimen name="margintopsmall">20dp</dimen>
+    <dimen name="paddinglayout">10dp</dimen>
+
+</resources>

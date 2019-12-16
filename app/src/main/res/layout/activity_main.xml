@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="12dp"
+    >
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="180dp"
+        android:layout_marginTop="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/expansetrackerlogo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/open"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+<com.google.android.gms.common.SignInButton
+    android:id="@+id/signInButton"
+    android:layout_marginTop="100dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="30dp"
+    >
+</com.google.android.gms.common.SignInButton>
+
+    <Button
+        android:id="@+id/signInOtpButton"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:drawableLeft="@drawable/greenphone"
+        android:text="@string/sign_in"
+        android:textAllCaps="false"
+        android:background="@color/white"
+        android:textColor="@color/darkgray"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="10dp" />
+    <View
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/lightgray"
+        >
+    </View>
+
+    <Button
+        android:id="@+id/change_lang"
+        android:text="Change Language"
+        android:textColor="@color/white"
+        android:paddingHorizontal="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/green"
+        android:background="@drawable/roundedbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

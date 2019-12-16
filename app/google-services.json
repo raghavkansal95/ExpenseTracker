@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "639062339952",
+    "firebase_url": "https://expansetracker-3810b.firebaseio.com",
+    "project_id": "expansetracker-3810b",
+    "storage_bucket": "expansetracker-3810b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639062339952:android:b1e0ab22314a4c21",
+        "android_client_info": {
+          "package_name": "com.example.expensetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639062339952-r6htictlms68e0itlvt86b82frqs7net.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3h3CLdulL9NgNCgYQXrHMhT-XMAKUpLI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639062339952-r6htictlms68e0itlvt86b82frqs7net.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

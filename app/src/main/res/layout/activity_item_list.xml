@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:id="@+id/relativeLayoutItem"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="@dimen/paddinglayout"
+    >
+
+    <TextView
+        android:id="@+id/textViewBuyListName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="BuyListName"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/headingTextSize"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="@dimen/margintopsmall"
+        />
+
+    <Button
+        android:id="@+id/ButtonUpdateItem"
+        android:text="Edit"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/textViewBuyListName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewItems"
+        android:layout_below="@id/textViewBuyListName"
+        android:text="Items"
+        android:textColor="@color/black"
+        android:textSize="@dimen/normalTextSize"
+        android:layout_marginLeft="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margintopsmall"
+        />
+
+    <TextView
+        android:id="@+id/textViewQty"
+        android:layout_below="@id/textViewBuyListName"
+        android:layout_toRightOf="@id/textViewItems"
+        android:text="Quantity"
+        android:textColor="@color/black"
+        android:textSize="@dimen/normalTextSize"
+        android:layout_marginLeft="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margintopsmall"
+        />
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/itemListRecyclerView"
+        android:layout_below="@id/textViewItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>
